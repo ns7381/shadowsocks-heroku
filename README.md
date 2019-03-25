@@ -1,5 +1,6 @@
 > Fork 于 [shadowsocks-heroku](https://github.com/mrluanma/shadowsocks-heroku) 项目
-
+node local.js -s ss-europe.herokuapp.com -l 1080 -m rc4 -k 123456a? -r 80
+echo lalala...
 # shadowsocks-heroku
 [Heroku](https://www.heroku.com/) 是一个支持多种编程语言的云平台即服务，shadowsocks-heroku 则是可部署在 Heroku 平台的 ss 服务。
 和 [shadowsocks](https://github.com/clowwindy/shadowsocks) 不同的是 shadowsocks-heroku 使用的 WebSocket 代替原本的 sockets。
